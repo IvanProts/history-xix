@@ -1,0 +1,86 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    border-bottom: 1px dashed black;
+    background-image: url('../../../assets/newspaper_background.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.title {
+    font-size: 30px;
+    padding: 20px 0;
+}
+
+.headerTitle {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+
+.contentBox {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    font-size: 18px;
+}
+
+.text {
+    max-width: 600px;
+    width: 100%;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.descr{
+  position: absolute;  
+  bottom: 0;
+  color: black;
+  text-align: center;
+  width: 500px;
+}
+
+.imgBox {
+    max-width: 600px;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    border: 50px ridge rgba(106, 82, 32, 0.6);
+}
+
+.item {
+    padding-left: 20px;
+}
+
+.sliderContainer {
+    width: 500px;
+    height: 500px;
+}
+
+.img {
+    max-width: 100%;
+    object-fit: contain;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.fade {
+    width: 500px;
+    height: 530px;
+}
+
+.carusel{
+    width: 500px;
+    height: 500px;
+}
+
+.imageContainer {
+    width: 500px;
+    height: 500px;
+}
